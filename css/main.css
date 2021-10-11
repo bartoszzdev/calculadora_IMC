@@ -1,3 +1,12 @@
+.main-box {
+    width: 400px;
+    min-height: 40vh;
+    background: #fff;
+    border: 1px solid #fff;
+    border-radius: 8px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.644)
+}
+    
 form {
     display: flex;
     flex-direction: column;
@@ -27,5 +36,14 @@ label {
     margin: 22px;
     font-size: 1.5rem;
     letter-spacing: 1px;
+    background: #686de0;
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.418);
+    color: #fff;
+    border-radius: 3px;
+    border: 0;
     cursor: pointer
+}
+
+#btn:hover {
+    transform: scale(1.2)
 }

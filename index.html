@@ -22,24 +22,31 @@
             <h1>Calculadora de IMC</h1>
             <p>A classificação do índice de massa corporal (IMC), pode ajudar a identificar obesidade ou desnutrição em crianças, adolescentes, adultos e idosos.</p>
         </header>
-        <main>
+
+        <main class="main-box">
             <form>
                 <div>
+                    <label for="nome">Nome</label><br>
+                    <input id="nome" class="indice" type="text" placeholder="Digite seu nome">
+                </div> 
+
+                <div>
                     <label for="altura">Altura</label><br>
-                    <input id="altura" class="indice" type="number" placeholder="Ex: 165"> cm
+                    <input id="altura" class="indice" type="number" placeholder="Ex: 1,65">
                 </div> 
 
                 <div>
                     <label for="peso">Peso</label><br>
-                    <input id="peso" class="indice" type="number" placeholder="Ex: 60,5"> kg
+                    <input id="peso" class="indice" type="number" placeholder="Ex: 60,5">
                 </div>
 
                 <button type="button" id="btn">Calcular</button>
             </form>
-            
+
             <div id="resultado"></div>
         </main>
     </section>
     
+    <script src="js/script.js"></script>
 </body>
 </html>
