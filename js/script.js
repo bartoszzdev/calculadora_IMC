@@ -30,4 +30,8 @@ function calcularImc() {
 
         resultado.innerText = `Olá ${nome}, seu IMC é de ${imc} kg/m² e você está ${classificacao}!`
     }
+
+    document.getElementById("altura").value = ""
+    document.getElementById("peso").value = ""
+    document.getElementById("nome").value = ""
 }
