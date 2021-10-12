@@ -9,6 +9,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/result.css">
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/subtitle.css">
     <link rel="stylesheet" href="css/title.css">
@@ -25,24 +26,21 @@
 
         <main class="main-box">
             <form>
-                <div>
-                    <label for="nome">Nome</label><br>
+                <div class="information">
+                    <label for="nome">Nome</label>
                     <input id="nome" class="indice" type="text" placeholder="Digite seu nome">
-                </div> 
-
-                <div>
-                    <label for="altura">Altura</label><br>
+                </div>
+                <div class="information">
+                    <label for="altura">Altura</label>
                     <input id="altura" class="indice" type="number" placeholder="Ex: 1,65">
-                </div> 
-
-                <div>
-                    <label for="peso">Peso</label><br>
+                </div>
+                <div class="information">
+                    <label for="peso">Peso</label>
                     <input id="peso" class="indice" type="number" placeholder="Ex: 60,5">
                 </div>
-
                 <button type="button" id="btn">Calcular</button>
             </form>
-
+ 
             <div id="resultado"></div>
         </main>
     </section>

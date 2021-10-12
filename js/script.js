@@ -9,12 +9,12 @@ function calcularImc() {
     const imc = (peso / (altura * altura)).toFixed(1)
     const resultado = document.getElementById("resultado")
 
-    if(altura == "" && peso == "" && nome == "") {
+    if(altura == "" || peso == "" || nome == "") {
         resultado.innerText = "Preencha todos os campos corretamente!"
     } else {
         let classificacao = ""
 
-        if(imc < 18.5) {
+        if (imc < 18.5) {
             classificacao = "abaixo do peso"
         } else if(imc < 25) {
             classificacao = "com o peso ideal"

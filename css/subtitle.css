@@ -1,6 +1,6 @@
 p {
     font-size: 1.2rem;
-    max-width: 600px;
-    margin-bottom: 20px;
-    color: #535c68
+    max-width: 500px;
+    color: #535c68;
+    margin: 0 auto
 }
