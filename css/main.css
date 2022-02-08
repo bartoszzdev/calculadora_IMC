@@ -1,6 +1,7 @@
 .main-box {
-    width: 400px;
-    min-height: 40vh;
+    width: 100%;
+    max-width: 400px;
+    height: 100%;
     margin: 25px 4%;
     padding: 15px;
     background: #fff;
@@ -39,9 +40,8 @@ label {
 }
 
 #btn {
-    width: 300px;
+    width: 80%;
     height: 40px;
-    margin: 22px; 
     font-size: 1.5rem;
     letter-spacing: 1px;
     background: #686de0;
@@ -54,4 +54,25 @@ label {
 
 #btn:hover {
     transform: scale(1.2)
+}
+
+@media screen and (max-width: 500px) {
+    .indice {
+        width: 100%;
+        margin: 0 20px 25px 20px
+    }
+}
+
+@media screen and (max-width: 420px) {
+    .main-box {
+        height: 100%
+    }
+
+    .indice {
+        margin-bottom: 14px 
+    }
+
+    label {
+        font-size: 1.2rem
+    }
 }

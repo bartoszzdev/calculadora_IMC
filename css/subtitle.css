@@ -4,3 +4,9 @@ p {
     color: #535c68;
     margin: 0 auto
 }
+
+@media screen and (max-width: 620px) {
+    p {
+        font-size: 1rem
+    }
+}

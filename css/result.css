@@ -1,4 +1,10 @@
 #resultado {
-    margin: 10px 2%;
+    margin: 10px 2% 0 2%;
     font-size: 22px; 
+}
+
+@media screen and (max-width: 520px) {
+    #resultado {
+        font-size: 20px
+    }
 }
